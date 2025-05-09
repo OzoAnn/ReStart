@@ -168,24 +168,27 @@ section {
 }
 
 .section-box {
-  background: rgba(255, 255, 255, 0.07);
-  backdrop-filter: blur(6px);
+  background: #1e1e1e;
+  color: #dddddd;
   border-radius: 15px;
   padding: 40px;
   max-width: 1000px;
   margin: 0 auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
+/* Заголовки */
 section h2 {
+  color: #ffffff;
   font-size: 36px;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
+/* Основной текст */
 section p {
-  font-size: 18px;
-  max-width: 800px;
-  margin: 0 auto 20px auto;
+  color: #cccccc;
+  font-size: 17px;
   line-height: 1.6;
 }
 
@@ -214,19 +217,20 @@ section p {
   font-size: 20px;
   margin: 10px 0 5px;
   font-weight: 400;
+  color: #ffffff;
 }
 
 .agent .position {
-  font-size: 16px;
-  color: #bbb;
-  margin: 5px 0 10px;
-  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+  color: #999999;
+  margin-bottom: 10px;
 }
 
 .agent-description {
-  font-size: 16px;
-  color: #ddd;
-  margin-bottom: 10px;
+  color: #cccccc;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .agent-contact {
@@ -235,12 +239,17 @@ section p {
 }
 
 .agent-contact a {
-  color: #ccc;
-  text-decoration: none;
+  color: #cccccc;
+  text-decoration: underline;
+  transition: color 0.3s;
 }
 
+.agent-contact {
+  font-size: 14px;
+  color: #bbbbbb;
+}
 .agent-contact a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 /* Services */
@@ -280,10 +289,11 @@ section p {
 
 .review {
   background: rgba(255, 255, 255, 0.05);
+  color: #bbbbbb;
+  font-style: italic;
+  font-size: 15px;
   border-radius: 10px;
   padding: 20px;
-  font-style: italic;
-  font-size: 16px;
 }
 
 /* Contact */
@@ -393,12 +403,24 @@ footer {
 
 /* Links */
 a {
-  color: #ddd;
-  text-decoration: none;
-  font-weight: 600;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: underline;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #f5f5f5;
+  color: #dddddd;
+}
+/* Разные секции — разные фоны */
+#partners .section-box {
+  background: #232323;
+}
+
+#services .section-box {
+  background: #1c1c1c;
+}
+
+#contact .section-box {
+  background: #181818;
 }
