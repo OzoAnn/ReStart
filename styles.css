@@ -417,3 +417,25 @@ section p {
   border-radius: 10px;
   margin-top: 20px;
 }
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+  color: #bbb;
+  background: transparent;
+  margin-top: 40px;
+}
+
+/* Links */
+a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #f5f5f5;
+}
+
