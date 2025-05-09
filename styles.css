@@ -10,9 +10,10 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  background: url('assets/background.jpg') center/cover fixed no-repeat;
+  background: url('assets/backg.webp') center/cover fixed no-repeat;
   color: #ddd;
   overflow-x: hidden;
+  
 }
 
 :target::before {
