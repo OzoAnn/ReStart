@@ -168,19 +168,19 @@ section {
 }
 
 .section-box {
-  background: rgba(255, 255, 240, 0.9); /* ivory with transparency */
-  color: #222222; /* dark text for readability */
+  background: rgba(30, 30, 30, 0.9);
+  color: #dddddd;
   border-radius: 16px;
   padding: 40px;
   max-width: 1000px;
   margin: 0 auto;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 6px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 6px 24px rgba(0, 0, 0, 0.5);
 }
 
 
 /* Заголовки */
 section h2 {
-  color: #222222;
+  color: #ffffff;
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -188,7 +188,7 @@ section h2 {
 
 /* Основной текст */
 section p {
-  color: #333333;
+  color: #cccccc;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -218,25 +218,25 @@ section p {
   font-size: 20px;
   margin: 10px 0 5px;
   font-weight: 400;
-  color: #222222;
+  color: #ffffff;
 }
 
 .agent .position {
   font-size: 15px;
   font-style: italic;
-  color: #666666;
+  color: #999999;
   margin-bottom: 10px;
 }
 
 .agent-description {
-  color: #444444;
+  color: #cccccc;
   font-size: 15px;
   line-height: 1.5;
 }
 
 .agent-contact {
   font-size: 14px;
-  color: #444444;
+  color: #ccc;
 }
 
 .agent-contact a {
@@ -250,7 +250,7 @@ section p {
   color: #bbbbbb;
 }
 .agent-contact a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 
 /* Services */
@@ -264,12 +264,12 @@ section p {
 .service-item h3 {
   font-size: 18px;
   margin-bottom: 8px;
-  color: #222222;
+  color: #f0f0f0;
 }
 
 .service-item p {
   font-size: 14px;
-  color: #444444;
+  color: #ccc;
   line-height: 1.4;
 }
 /* Partners */
