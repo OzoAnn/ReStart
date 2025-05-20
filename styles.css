@@ -259,7 +259,26 @@ section p {
   text-align: center;
   padding: 20px;
 }
+.agent img {
+  width: 100%;
+  max-width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 0 20px 20px 20px;
+  margin-bottom: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
 
+.agent img:hover {
+  transform: scale(1.02);
+  border-color: rgba(255, 255, 255, 0.2); /* softer tone */
+}
+
+
+
+/* 
 .agent img {
   width: 150px;
   height: 150px;
@@ -267,7 +286,7 @@ section p {
   border-radius: 50%;
   margin-bottom: 15px;
 }
-
+*/
 .agent h3 {
   font-size: 20px;
   margin: 10px 0 5px;
