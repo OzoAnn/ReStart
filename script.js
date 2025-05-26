@@ -18,14 +18,18 @@ const translations = {
     agent2Text: "Ekspert ärikinnisvaras ja investeerimisvõimalustes.",
     agent3Text: "Natalja on energia tegudes. Kui on vaja appi tulla ja müüa korter /juba eile/, siis helista Nataljale! Rahvusvahelise ärikoridori hariduse ja 5-aastase kinnisvarakogemusega töötab ta TURBO-režiimis. Tema kliendid teavad: kui Natalja on asja käsile võtnud, siis tulemus ületab ootusi. Ah jah, ta on tõesti kättesaadav 24/7!",
     agent4Text: "Ilja – mittestandardsete lahenduste meister. Kui keegi ütleb: „see on võimatu”, vastab Ilja: „vaatame uuesti üle.” Tema kogemus restoranimaailmas alates 2008. aastast on õpetanud teda nägema võimalusi seal, kus teised näevad takistusi. Küsi temalt ükskõik millise Eesti nurga kohta – ja saad põhjaliku ülevaate igast piirkonnast! Pole ime, et kliendid kutsuvad teda oma isiklikuks GPS-iks kinnisvaramaailmas.",
-	servicesIntro: "Kogu kinnisvara müügi saatmine. Võtame enda peale kõik — alates esimesest kohtumisest kuni objekti üleandmiseni.",
-    service1Title: "Suhtlus klientidega",
+	servicesIntro: "Kinnisvarabüroos Restart pakume terviklikku teenustepaketti, et muuta teie kogemus kinnisvaraga võimalikult mugavaks! Usaldage end meie professionaalse meeskonna hoolde.",
+    service1Title: "Täielik müügiteenuste valik",
     service1Text: "Võtame enda peale kogu suhtluse potentsiaalsete klientidega — vastame küsimustele, lepime kokku näitamised, filtreerime sobimatud päringud. Säästate aega ja närve.",
   service2Title: "Professionaalne pildistamine",
     service2Text: "Kasutame kvaliteetset varustust ja teame, kuidas kinnisvara atraktiivselt esitleda. Valmistame pildistamisele eelnevalt ruumi ette — hubaselt, stiilselt, müüvalt.",
     service3Title: "Õiguslik tugi",
     service3Text: "Teeme koostööd kogenud notarite ja juristidega. Lahendame kiiresti juriidilised küsimused ja kaitseme kliendi huve tehingu igas etapis.",
-	partners: "Partnerid",
+	service4Title: "Üüriteenused",
+  service4Text: "siin on tekst",
+  	service5Title: "Abi uue kinnisvara leidmisel pärast teie kinnisvara müüki",
+  service5Text: "siin on tekst",
+    partners: "Partnerid",
 	send: "Saada"
   },
   en: {
@@ -171,4 +175,15 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
+document.querySelectorAll('.toggle-details').forEach(button => {
+  button.addEventListener('click', () => {
+    const item = button.closest('.service-item');
+    const text = button.querySelector('.toggle-text');
+    item.classList.toggle('expanded');
+
+    const isOpen = item.classList.contains('expanded');
+    text.textContent = isOpen ? 'Peida' : 'Loe rohkem';
+  });
+});
+
 

@@ -691,6 +691,70 @@ section p {
 .service-item:nth-child(3) .service-icon i {
   color: #ffb74d;
 }
+.service-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.service-item.expanded .service-details {
+  max-height: 500px;
+}
+
+/* Базовый стиль кнопки */
+.toggle-details {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  cursor: pointer;
+  padding: 5px 0;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+/* Цвета по порядку услуг */
+.service-item:nth-child(1) .toggle-details {
+  color: #4fc3f7;
+}
+.service-item:nth-child(2) .toggle-details {
+  color: #81c784;
+}
+.service-item:nth-child(3) .toggle-details {
+  color: #ffb74d;
+}
+
+.toggle-details:hover {
+  filter: brightness(1.2);
+}
+
+/* Стрелка наследует цвет */
+.arrow-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+  margin-top: 2px;
+}
+
+.service-item.expanded .arrow-icon {
+  transform: rotate(-135deg);
+}
+
+
+
 /* Partners */
 #partner-list {
   display: grid;
