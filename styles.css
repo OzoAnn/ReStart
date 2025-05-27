@@ -165,6 +165,7 @@ header {
 /* ===== Main и прочие секции ===== */
 main {
   padding-top: 100px;
+  overflow: visible !important;
 }
 
 section {
@@ -263,8 +264,11 @@ section {
   flex: 1 1 45%;
   max-width: 500px;
   position: relative;
-  margin-left: auto; /* ensures it floats to the right */
+  margin-left: auto;
+  overflow: visible; /* ✅ allow bubbles to overflow downward */
+  border-radius: 16px;
 }
+
 
 
 .about-front-photo img {
@@ -276,13 +280,8 @@ section {
 /* ===== BUBBLES ===== */
 .bubble-row {
   position: absolute;
-  bottom: -60px; /* выдвигаем за пределы картинки */
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  pointer-events: none; /* чтобы не перекрывали клики */
+  bottom: -60px;
+  z-index: 5;
 }
 
 .bubble {
@@ -401,6 +400,14 @@ section p {
   line-height: 1.6;
 }
 /* About us */
+#about {
+  overflow: visible;
+}
+#about.section-box {
+  overflow: visible; /* ✅ allow overflow of bubbles */
+  position: relative; /* required for proper context */
+}
+
 .about-intro {
   border-left: 2px solid #666;
   padding-left: 20px;
@@ -467,34 +474,141 @@ section p {
   }
 }
 
+/* ===== IMAGE SLIDER (About Section) ===== */
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  padding-top: 66.66%;
+  overflow: hidden; /* ✅ contain only the images */
+  border-radius: 16px;
+}
+
+
+.image-slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  opacity: 0;
+    z-index: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-slider img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.bubble-row {
+  position: absolute;
+  bottom: -60px; /* Make visible inside image container */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  pointer-events: none;
+  animation: floatIn 1.5s ease forwards;
+  z-index: 2; /* ⬅⬅⬅ Bring above slider images */
+}
+
+.bubble {
+  position: relative;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  backdrop-filter: blur(4px);
+  width: 140px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: auto;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+.bubble strong {
+  display: block;
+  font-size: 16px;
+  color: #f50206;
+  margin-bottom: 5px;
+}
+
+.bubble:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.bubble1::before {
+  content: "\1F465\0020";
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bubble2::before {
+  content: "\23F1\0020";
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bubble3::before {
+  content: "\2705\0020";
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+@keyframes floatIn {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-front-photo {
+    margin-left: 0;
+    width: 100%;
+  }
+  .image-slider img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+  .bubble-row {
+    display: none; /* Hide on mobile */
+  }
+}
+
 
 
 
 /* Agents */
-/*
-.agent {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 16px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-  margin-bottom: 30px;
-}
-.agent-photo img {
-  width: auto;
-  height: 100%;
-  max-height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-.agent-photo {
-  flex: 0 0 auto;
-  height: 100%;
-} */
 
 .agent {
   display: flex;

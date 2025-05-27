@@ -185,5 +185,17 @@ document.querySelectorAll('.toggle-details').forEach(button => {
     text.textContent = isOpen ? 'Peida' : 'Loe rohkem';
   });
 });
+ // === changing picture in about section ===
 
+  document.addEventListener("DOMContentLoaded", () => {
+    let currentIndex = 0;
+    const images = document.querySelectorAll(".image-slider img");
+    if (!images.length) return;
+
+    setInterval(() => {
+      images[currentIndex].classList.remove("active");
+      currentIndex = (currentIndex + 1) % images.length;
+      images[currentIndex].classList.add("active");
+    }, 4000);
+  });
 
