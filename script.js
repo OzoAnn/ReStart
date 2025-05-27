@@ -26,9 +26,9 @@ const translations = {
     service3Title: "Õiguslik tugi",
     service3Text: "Teeme koostööd kogenud notarite ja juristidega. Lahendame kiiresti juriidilised küsimused ja kaitseme kliendi huve tehingu igas etapis.",
 	service4Title: "Üüriteenused",
-  service4Text: "siin on tekst",
-  	service5Title: "Abi uue kinnisvara leidmisel pärast teie kinnisvara müüki",
-  service5Text: "siin on tekst",
+  service4Text: "siin on tekstLeiame sobivaid üürnikke ja haldame kogu üüriprotsessi turvaliselt ning sujuvalt.",
+  	service5Title: "Abi uue kinnisvara leidmisel",
+  service5Text: "Aitame leida uue kodu pärast teie kinnisvara müüki – kiiresti, usaldusväärselt ja teie soovide järgi.",
     partners: "Partnerid",
 	send: "Saada"
   },

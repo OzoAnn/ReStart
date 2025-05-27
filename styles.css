@@ -805,6 +805,12 @@ section p {
 .service-item:nth-child(3) .service-icon i {
   color: #ffb74d;
 }
+.service-item:nth-child(4) .service-icon i {
+  color: #ba68c8;
+}
+.service-item:nth-child(5) .service-icon i {
+  color: #4db6ac;
+}
 .service-details {
   max-height: 0;
   overflow: hidden;
@@ -845,6 +851,12 @@ section p {
 }
 .service-item:nth-child(3) .toggle-details {
   color: #ffb74d;
+}
+.service-item:nth-child(4) .toggle-details {
+  color: #ba68c8;
+}
+.service-item:nth-child(5) .toggle-details {
+  color: #4db6ac;
 }
 
 .toggle-details:hover {
