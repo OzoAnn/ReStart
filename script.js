@@ -49,7 +49,19 @@ bubbleDeals: "Edukalt sõlmitud tehingut",
     details5: "• Teie soovide ja nõudmiste põhjalik kaardistamine<br>• Objektide näitamiste korraldamine teile sobival ajal<br>• Konsultatsioonid piirkondade, infrastruktuuri ja arenguväljavaadete osas<br>• Abi objektide tehnilise seisukorra hindamisel<br>• Läbirääkimised parimate ostutingimuste saavutamiseks",
     details6: "• Kinnisvara turuväärtuse professionaalne hindamine<br>• Kvaliteetne objekti ettevalmistus pildistamiseks<br>• Aktiivne turundus nii veebis kui ka väljaspool<br>• Objektide näitamine potentsiaalsetele ostjatele<br>• Tehingu täielik juriidiline saatmine",
   partners: "Partnerid",
-	send: "Saada"
+	send: "Saada",
+  review1: `Ma sooviksin jagada oma väga positiivset kogemust koostööst maakleri <strong>Nataljaga</strong> ja ettevõttega Restart Kinnisvara. <br> Juba algusest peale näitas Natalja üles kõrget professionaalsust ja pühendumust kõiges, mida ta tegi – alates korteri ettevalmistamisest müügiks kuni võtmete üleandmiseni uutele omanikele. Suhtlus oli selge, tõhus ja alati sõbralik. Ükski küsimus ei jäänud vastuseta. Ma tundsin end kogu protsessi vältel kindlates kätes ning tulemus ületas mu ootusi — müük toimus kiiresti ja edukalt.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Natalia M. --`,
+review2: `Suur tänu Restart Kinnisvara spetsialistidele. Suurepärane töö! Professionaalne lähenemine igale detailile, adekvaatne ja põhjendatud objekti hindamine, suurepärane töö potentsiaalsete ostjatega ning kiire tehing – tubli töö! <br>Eriline tänu <strong>Ilja Tšegotovile</strong> kasulike kokkulepete saavutamise eest ostjaga ja kliendi huvide kaitsmise eest kuni müügiprotsessi viimase etapini! Väga vinge! <br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Mihhail --`,
+review3: `Ettevõte Restart Kinnisvara on end tõestanud usaldusväärse ja pädeva organisatsioonina ning ma soovitan rõõmuga Nataljat ja tema kolleege. Natalja on tõeline kõrgetasemeline professionaal, kelle jaoks on klient alati esikohal. Suur tänu suurepärase koostöö eest!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>`,
+review4: `Suur aitäh <strong>Mariale</strong> abi eest meie korteri müümisel! Me jäime väga rahule. Kõik oli selge, kiire ja hea suhtlus. Tõesti tundsime, et asjad liiguvad. Soovitame 200% ulatuses! <br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Milana K. --`,
+review5: `Väga professionaalne ja mis peamine – teeb oma tööd armastusega. Korraldas fotograafi, lisas korterisse väikeseid, kuid olulisi detaile. Minu arvates tegi ta palju rohkem, kui oleks pidanud! Harva kohtab ühes inimeses nii palju positiivsust ja energiat.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review6: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review7: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review8: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review9: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review10: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review11: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review12: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`
 },
 
   en: {
@@ -100,9 +112,15 @@ details2: "• Professional photography with modern equipment<br>• Shooting fr
 details3: "• Legal background check of the property<br>• Preparation and review of all documents required for the transaction<br>• Support during the notarial process<br>• Tax consultation related to real estate transactions<br>Contact us today to discuss your needs and learn how we can help you!",
 details4: "• Finding tenants for your property<br>• Finding rental property according to your criteria<br>• Legally compliant rental agreement drafting<br>• Background checks on potential tenants<br>• Assistance with dispute resolution",
 details5: "• Detailed assessment of your wishes and requirements<br>• Organizing property viewings at your convenience<br>• Consulting on neighborhoods, infrastructure, and development prospects<br>• Assistance in assessing the technical condition of properties<br>• Negotiating the best purchase terms",
-details6: "• Professional market value appraisal of the property<br>• Quality preparation of the object for photography<br>• Active marketing both online and offline<br>• Property viewings for potential buyers<br>• Full legal support for the transaction",  partners: "Partners",
-  partners: "Partners",
-send: "Send"
+details6: "• Professional market value appraisal of the property<br>• Quality preparation of the object for photography<br>• Active marketing both online and offline<br>• Property viewings for potential buyers<br>• Full legal support for the transaction",
+partners: "Partners",
+send: "Send",
+review1: `I would like to share my very positive experience working with agent <strong>Natalja</strong> and the company Restart Kinnisvara. <br> From the very beginning, Natalja demonstrated high professionalism and dedication in everything she did – from preparing the apartment for sale to handing over the keys to the new owners. Communication was clear, effective, and always friendly. No question went unanswered. I felt in safe hands throughout the process, and the result exceeded my expectations — the sale went quickly and successfully.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Natalia M. --`,
+review2: `Many thanks to the specialists at Restart Kinnisvara. Excellent work! A professional approach to every detail, accurate and well-reasoned property valuation, great communication with potential buyers, and a quick deal – well done!<br>Special thanks to <strong>Ilja Tšegotov</strong> for achieving beneficial agreements with the buyer and protecting the client's interests until the final stage of the sale! Amazing job!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Mihhail --`,
+review3: `Restart Kinnisvara has proven itself as a reliable and competent organization, and I am happy to recommend Natalja and her colleagues. Natalja is a true high-level professional who always puts the client first. Many thanks for the excellent cooperation!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>`,
+review4: `Many thanks to <strong>Maria</strong> for helping us sell our apartment! We were very satisfied. Everything was clear, fast, and the communication was excellent. We truly felt that things were moving. We recommend her 200%!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Milana K. --`,
+review5: `Very professional and, most importantly – does her job with love. She arranged a photographer and added small but important details to the apartment. In my opinion, she did much more than she had to! It's rare to meet so much positivity and energy in one person.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`
+
   },
   ru: {
   about: "О нас",
@@ -154,7 +172,13 @@ details4: "• Поиск арендаторов для вашей недвиж�
 details5: "• Детальный анализ ваших пожеланий и требований<br>• Организация просмотров в удобное для вас время<br>• Консультации по районам, инфраструктуре и перспективам развития<br>• Помощь в оценке технического состояния объектов<br>• Переговоры о лучших условиях покупки",
 details6: "• Профессиональная оценка рыночной стоимости недвижимости<br>• Качественная подготовка объекта к фотосъёмке<br>• Активное продвижение как онлайн, так и офлайн<br>• Проведение показов потенциальным покупателям<br>• Полное юридическое сопровождение сделки",
   partners: "Партнёры",
-  send: "Отправить"
+  send: "Отправить",
+  review1: `Хочу поделиться своим очень положительным опытом сотрудничества с агентом <strong>Натальей</strong> и компанией Restart Kinnisvara.<br>С самого начала Наталья продемонстрировала высокий профессионализм и преданность делу — от подготовки квартиры к продаже до передачи ключей новым владельцам. Общение было ясным, эффективным и всегда доброжелательным. Ни один вопрос не остался без ответа. На протяжении всего процесса я чувствовала себя в надежных руках, а результат превзошел ожидания — продажа прошла быстро и успешно.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Наталия М. --`,
+review2: `Огромная благодарность специалистам Restart Kinnisvara. Отличная работа! Профессиональный подход к каждой детали, адекватная и обоснованная оценка объекта, отличная работа с потенциальными покупателями и быстрая сделка – отличная работа!<br>Особая благодарность <strong>Илье Чеготову</strong> за достижение выгодных договоренностей с покупателем и защиту интересов клиента до самого конца сделки! Потрясающе!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Михаил --`,
+review3: `Компания Restart Kinnisvara зарекомендовала себя как надежная и компетентная организация, и я с радостью рекомендую Наталью и её коллег. Наталья – настоящий профессионал высокого уровня, для которой клиент всегда на первом месте. Огромное спасибо за отличное сотрудничество!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>`,
+review4: `Огромное спасибо <strong>Марии</strong> за помощь в продаже нашей квартиры! Мы остались очень довольны. Всё было чётко, быстро и с отличной коммуникацией. Действительно чувствовалось, что дело продвигается. Рекомендуем на 200%!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Милана К. --`,
+review5: `Очень профессионально и главное – с любовью к своему делу. Она организовала фотографа и добавила в квартиру небольшие, но важные детали. По моему мнению, она сделала гораздо больше, чем должна была! Редко встречается столько позитива и энергии в одном человеке.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Родион М. --`
+
   }
 };
 
@@ -169,7 +193,7 @@ function applyTranslations(lang) {
   document.querySelectorAll("[data-key]").forEach(el => {
     const key = el.getAttribute("data-key");
     if (translations[lang] && translations[lang][key]) {
-      if (["details1", "details2", "details3", "details4", "details5", "details6"].includes(key)) {
+      if (["details1", "details2", "details3", "details4", "details5", "details6", "review1", "review2", "review3", "review4", "review5", "review6", "review7", "review8", "review9", "review10", "review11", "review12"].includes(key)) {
         el.innerHTML = translations[lang][key];
       } else {
         el.textContent = translations[lang][key];
@@ -186,6 +210,25 @@ function applyTranslations(lang) {
   languageSelector.addEventListener("change", (e) => {
     applyTranslations(e.target.value);
   });
+
+  function applyTranslations(lang) {
+  const elements = document.querySelectorAll("[data-key]");
+  elements.forEach(el => {
+    const key = el.getAttribute("data-key");
+    if (translations[lang][key]) {
+      el.innerHTML = translations[lang][key];
+    }
+  });
+}
+
+// Initial load
+const currentLang = document.getElementById("language-selector").value;
+applyTranslations(currentLang);
+
+// On language change
+document.getElementById("language-selector").addEventListener("change", (e) => {
+  applyTranslations(e.target.value);
+});
 
   // === Гамбургер логика ===
   if (menuToggle && menu) {
