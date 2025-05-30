@@ -48,7 +48,9 @@ bubbleDeals: "Edukalt sõlmitud tehingut",
     details4: "• Üürnike otsimine teie kinnisvarale<br>• Üüripinna leidmine vastavalt teie kriteeriumidele<br>• Õiguspärane üürilepingu koostamine<br>• Potentsiaalsete üürnike taustakontroll<br>• Abi vaidluste lahendamisel",
     details5: "• Teie soovide ja nõudmiste põhjalik kaardistamine<br>• Objektide näitamiste korraldamine teile sobival ajal<br>• Konsultatsioonid piirkondade, infrastruktuuri ja arenguväljavaadete osas<br>• Abi objektide tehnilise seisukorra hindamisel<br>• Läbirääkimised parimate ostutingimuste saavutamiseks",
     details6: "• Kinnisvara turuväärtuse professionaalne hindamine<br>• Kvaliteetne objekti ettevalmistus pildistamiseks<br>• Aktiivne turundus nii veebis kui ka väljaspool<br>• Objektide näitamine potentsiaalsetele ostjatele<br>• Tehingu täielik juriidiline saatmine",
-  partners: "Partnerid",
+      toggleMore: "Loe rohkem",
+    toggleLess: "Peida",
+    partners: "Partnerid",
 	send: "Saada",
   review1: `Ma sooviksin jagada oma väga positiivset kogemust koostööst maakleri <strong>Nataljaga</strong> ja ettevõttega Restart Kinnisvara. <br> Juba algusest peale näitas Natalja üles kõrget professionaalsust ja pühendumust kõiges, mida ta tegi – alates korteri ettevalmistamisest müügiks kuni võtmete üleandmiseni uutele omanikele. Suhtlus oli selge, tõhus ja alati sõbralik. Ükski küsimus ei jäänud vastuseta. Ma tundsin end kogu protsessi vältel kindlates kätes ning tulemus ületas mu ootusi — müük toimus kiiresti ja edukalt.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Natalia M. --`,
 review2: `Suur tänu Restart Kinnisvara spetsialistidele. Suurepärane töö! Professionaalne lähenemine igale detailile, adekvaatne ja põhjendatud objekti hindamine, suurepärane töö potentsiaalsete ostjatega ning kiire tehing – tubli töö! <br>Eriline tänu <strong>Ilja Tšegotovile</strong> kasulike kokkulepete saavutamise eest ostjaga ja kliendi huvide kaitsmise eest kuni müügiprotsessi viimase etapini! Väga vinge! <br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Mihhail --`,
@@ -114,6 +116,8 @@ details3: "• Legal background check of the property<br>• Preparation and rev
 details4: "• Finding tenants for your property<br>• Finding rental property according to your criteria<br>• Legally compliant rental agreement drafting<br>• Background checks on potential tenants<br>• Assistance with dispute resolution",
 details5: "• Detailed assessment of your wishes and requirements<br>• Organizing property viewings at your convenience<br>• Consulting on neighborhoods, infrastructure, and development prospects<br>• Assistance in assessing the technical condition of properties<br>• Negotiating the best purchase terms",
 details6: "• Professional market value appraisal of the property<br>• Quality preparation of the object for photography<br>• Active marketing both online and offline<br>• Property viewings for potential buyers<br>• Full legal support for the transaction",
+    toggleMore: "Read more",
+    toggleLess: "Hide",
 partners: "Partners",
 send: "Send",
 review1: `I would like to share my very positive experience working with agent <strong>Natalja</strong> and the company Restart Kinnisvara. <br> From the very beginning, Natalja demonstrated high professionalism and dedication in everything she did – from preparing the apartment for sale to handing over the keys to the new owners. Communication was clear, effective, and always friendly. No question went unanswered. I felt in safe hands throughout the process, and the result exceeded my expectations — the sale went quickly and successfully.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Natalia M. --`,
@@ -179,7 +183,9 @@ details3: "• Проверка юридической чистоты объек
 details4: "• Поиск арендаторов для вашей недвижимости<br>• Подбор арендуемой недвижимости по вашим критериям<br>• Юридически грамотное составление договора аренды<br>• Проверка потенциальных арендаторов<br>• Помощь в разрешении спорных ситуаций",
 details5: "• Детальный анализ ваших пожеланий и требований<br>• Организация просмотров в удобное для вас время<br>• Консультации по районам, инфраструктуре и перспективам развития<br>• Помощь в оценке технического состояния объектов<br>• Переговоры о лучших условиях покупки",
 details6: "• Профессиональная оценка рыночной стоимости недвижимости<br>• Качественная подготовка объекта к фотосъёмке<br>• Активное продвижение как онлайн, так и офлайн<br>• Проведение показов потенциальным покупателям<br>• Полное юридическое сопровождение сделки",
-  partners: "Партнёры",
+      toggleMore: "Читать далее",
+    toggleLess: "Скрыть",
+partners: "Партнёры",
   send: "Отправить",
   review1: `Хочу поделиться своим очень положительным опытом сотрудничества с агентом <strong>Натальей</strong> и компанией Restart Kinnisvara.<br>С самого начала Наталья продемонстрировала высокий профессионализм и преданность делу — от подготовки квартиры к продаже до передачи ключей новым владельцам. Общение было ясным, эффективным и всегда доброжелательным. Ни один вопрос не остался без ответа. На протяжении всего процесса я чувствовала себя в надежных руках, а результат превзошел ожидания — продажа прошла быстро и успешно.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Наталия М. --`,
 review2: `Огромная благодарность специалистам Restart Kinnisvara. Отличная работа! Профессиональный подход к каждой детали, адекватная и обоснованная оценка объекта, отличная работа с потенциальными покупателями и быстрая сделка – отличная работа!<br>Особая благодарность <strong>Илье Чеготову</strong> за достижение выгодных договоренностей с покупателем и защиту интересов клиента до самого конца сделки! Потрясающе!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Михаил --`,
@@ -294,16 +300,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // === Toggle "Loe rohkem / Peida" button for service items ===
-  document.querySelectorAll('.toggle-details').forEach(button => {
-    button.addEventListener('click', () => {
-      const item = button.closest('.service-item');
-      const text = button.querySelector('.toggle-text');
-      item.classList.toggle('expanded');
+document.querySelectorAll('.toggle-details').forEach(button => {
+  button.addEventListener('click', () => {
+    const item = button.closest('.service-item');
+    const text = button.querySelector('.toggle-text');
+    item.classList.toggle('expanded');
 
-      const isOpen = item.classList.contains('expanded');
-      text.textContent = isOpen ? 'Peida' : 'Loe rohkem';
-    });
+    const isOpen = item.classList.contains('expanded');
+    const currentLang = localStorage.getItem("lang") || "et";
+    
+    text.setAttribute("data-key", isOpen ? "toggleLess" : "toggleMore");
+    text.textContent = translations[currentLang][isOpen ? "toggleLess" : "toggleMore"];
   });
+});
+
 
   // === About Section Image Slider ===
   let currentIndex = 0;
