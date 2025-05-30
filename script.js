@@ -26,7 +26,7 @@ bubbleDeals: "Edukalt sõlmitud tehingut",
     emailLabel: "E-mail",
     addressLabel: "Aadress",
     agent1Text: "Ettevõtte asutaja ja meeskonna juht – kliendisuhete ekspert, kes tagab läbipaistvuse ja aususe igas tehingus. Maria – meie meeskonna süda. Maria ei ole lihtsalt kinnisvarabüroo asutaja – tema eestvedamisel on Restartist saanud usaldusväärsuse ja professionaalsuse sümbol. Tema ainulaadne lähenemine ühendab sügavad turuteadmised siira hoolivusega iga kliendi vastu. Kui Maria ütleb: „me leiame teie kodule parima ostja”, siis kliendid teavad – see pole lihtsalt lubadus, see on garantii! Tema elulised story’d teel objektidele ja innustavad lood edukaist tehinguist on saanud Restart Kinnisvara visiitkaardiks.",
-    agent2Text: "Ekspert ärikinnisvaras ja investeerimisvõimalustes.",
+    agent2Text: "Varem vaatas Zoja tulevikku kui taroloog, nüüd aga aitab ta klientidel seda ise luua – uutes korterites ja kodudes. Zoja on maakler, kes muudab kinnisvaratehingud mitte ainult arusaadavaks, vaid lausa maagiliselt mugavaks. Tema lähenemises on siiani natuke maagiat: <br>•	ta tunnetab klienti poole sõna pealt<br> •	märkab potentsiaali seal, kus teised seda ei näe<br> •	on alati kättesaadav ja valmis lahendama ka kõige keerulisema olukorra",
     agent3Text: "Natalja on energia tegudes. Kui on vaja appi tulla ja müüa korter /juba eile/, siis helista Nataljale! Rahvusvahelise ärikoridori hariduse ja 5-aastase kinnisvarakogemusega töötab ta TURBO-režiimis. Tema kliendid teavad: kui Natalja on asja käsile võtnud, siis tulemus ületab ootusi. Ah jah, ta on tõesti kättesaadav 24/7!",
     agent4Text: "Ilja – mittestandardsete lahenduste meister. Kui keegi ütleb: „see on võimatu”, vastab Ilja: „vaatame uuesti üle.” Tema kogemus restoranimaailmas alates 2008. aastast on õpetanud teda nägema võimalusi seal, kus teised näevad takistusi. Küsi temalt ükskõik millise Eesti nurga kohta – ja saad põhjaliku ülevaate igast piirkonnast! Pole ime, et kliendid kutsuvad teda oma isiklikuks GPS-iks kinnisvaramaailmas.",
 	servicesIntro: "Kinnisvarabüroos Restart pakume terviklikku teenustepaketti, et muuta teie kogemus kinnisvaraga võimalikult mugavaks! Usaldage end meie professionaalse meeskonna hoolde.",
@@ -55,13 +55,14 @@ review2: `Suur tänu Restart Kinnisvara spetsialistidele. Suurepärane töö! Pr
 review3: `Ettevõte Restart Kinnisvara on end tõestanud usaldusväärse ja pädeva organisatsioonina ning ma soovitan rõõmuga Nataljat ja tema kolleege. Natalja on tõeline kõrgetasemeline professionaal, kelle jaoks on klient alati esikohal. Suur tänu suurepärase koostöö eest!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>`,
 review4: `Suur aitäh <strong>Mariale</strong> abi eest meie korteri müümisel! Me jäime väga rahule. Kõik oli selge, kiire ja hea suhtlus. Tõesti tundsime, et asjad liiguvad. Soovitame 200% ulatuses! <br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Milana K. --`,
 review5: `Väga professionaalne ja mis peamine – teeb oma tööd armastusega. Korraldas fotograafi, lisas korterisse väikeseid, kuid olulisi detaile. Minu arvates tegi ta palju rohkem, kui oleks pidanud! Harva kohtab ühes inimeses nii palju positiivsust ja energiat.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review6: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review7: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review8: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review9: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review10: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review11: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
-review12: `........<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`
+review6: `Avaldame kogu oma pere nimel tänu Mariale. Kõik teenused olid kõrgeimal tasemel ja mis peamine – huumoriga. Soovitan Mariat kui inimest, kes kindlasti on õigel kohal. Kui otsite parimat maaklerit, ärge kahelge – see on Maria<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Jekaterina G. --`,
+review7: `Sõnades on raske väljendada oma tänu Mariale! 100% soovitus. Me ei osanud mehega ette kujutada, et tänapäeval on olemas selliseid Inimesi. Maria pole lihtsalt professionaal, ta on suure hingega inimene. Saimme hindamatut abi maja ostmisel – tehing oli keeruline ja nõudis kiireid, täpseid lahendusi. Marial oli alati olemas õige kontakt, telefoninumber, usaldusväärne kolleeg, tugev tiim (sealhulgas imeline Natalja Kravtsenko). Ta oli ühenduses 24/7, isegi puhkusel. Nii palju soojust, tuge, tähelepanu! Maria sai meie Ingeliks ja aitas unistusel täituda. Kui otsite kinnisvaraspetsialisti – pöörduge ainult Maria poole. Tema jaoks pole see lihtsalt töö. Aitäh!!!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Inga --`,
+review8: `Ma ei mäleta, kuidas me Mariat leidsime, kui otsisime spetsialisti korteri müügiks, aga otsus temaga ühendust võtta oli täiesti õige! Juba esimesest kohtumisest jäi väga meeldiv mulje: Maria oli tähelepanelik, pädev ja siiralt protsessi kaasatud. Andsime lihtsalt võtmed üle – ja kõik kulges sujuvalt. Ainus asi, mida meilt nõuti, oli ostulepingu allkirjastamine. Kõik muu korraldas Maria.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Juri G. --`,
+review9: `Kinnisvara müük või ost? AINULT MARIA POOLE! Oma ala professionaal! PARIM!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Tatjana V. --`,
+review10: `Pöördusin Maria poole korteri müügi asjus. Juba esimesest hetkest alates tundsin end kindlalt – Maria sisendas usaldust ja andis lootust, et plaan saab teoks. Müügi käigus tekkis mõningaid nüansse, mille Maria aitas kiiresti ja kergelt lahendada. Kogu protsess kestis 2 kuud – kõik toimus kiiresti, lihtsalt ja kõrgel tasemel. Üheselt parim oma ala professionaal. Soovitan kogu südamest ja tänan siiralt!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Julia K. --`,
+review11: `Suur tänu Mariale korteri kiire müügi eest. Kõik soovitused olid väga asjakohased ja aitasid müüa korteri kiiresti ja kasulikult. Olime alati kursis ja saime dokumentidega seotud küsimustele kohesed vastused. Soovitan väga väga väga. Suurepärane maakler!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Valeri N. --`,
+review12: `Soovime südamest tänada Mariat suurepärase koostöö eest meie kodu nii müügi kui ka ostu protsessi käigus. Ta oli alati äärmiselt abivalmis ja reageeris meie küsimustele kiirelt ning operatiivselt. Tema professionaalne ja hooliv suhtumine tegi kogu protsessi sujuvaks ja stressivabaks. Me tundsime, et olime heades kätes ning Maria tõesti hoolis sellest, et kõik meie vajadused oleksid rahuldatud. Kindlasti soovitame Mariat ka oma sõpradele ja tuttavatele. Suur aitäh veel kord kogu töö ja vaeva eest!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Jekaterina S. --`,
+    footerText: "© 2025 ReStart Kinnisvara. Kõik õigused kaitstud."
 },
 
   en: {
@@ -91,7 +92,7 @@ bubbleDeals: "Successful deals closed",
   emailLabel: "Email",
   addressLabel: "Address",
   agent1Text: "Founder and team leader – a client relationship expert who ensures transparency and honesty in every deal. Maria is the heart of our team. She’s not just the founder of the agency – under her leadership, Restart has become a symbol of trust and professionalism. Her unique approach combines deep market knowledge with genuine care for every client. When Maria says, 'we’ll find the best buyer for your home', clients know – it’s not just a promise, it’s a guarantee! Her real-life stories on the way to properties and inspiring success tales have become Restart Kinnisvara’s signature.",
-  agent2Text: "Expert in commercial real estate and investment opportunities.",
+  agent2Text: "Zoja used to glimpse into the future as a tarot reader — now she helps clients build it themselves, in new apartments and homes. She’s the kind of real estate agent who makes property transactions not just clear, but magically comfortable. There’s always a bit of magic in her approach:<br>•	she understands clients from the first word<br>•	sees potential where others don’t<br>•	always stays in touch and is ready to handle even the most complex case",
   agent3Text: "Natalja is action energy. If you need to help sell an apartment /yesterday/, call Natalja! With a background in international business and 5 years of real estate experience, she works in TURBO mode. Her clients know: if Natalja takes on a task, the results exceed expectations. Oh yes, she really is available 24/7!",
   agent4Text: "Ilja is a master of non-standard solutions. When someone says, 'it’s impossible', Ilja replies, 'let’s take another look'. His experience in the restaurant world since 2008 has taught him to see opportunities where others see obstacles. Ask him about any corner of Estonia – and you'll get a thorough overview of the area! No wonder clients call him their personal GPS in the real estate world.",
   servicesIntro: "At Restart Real Estate Agency, we offer a comprehensive service package to make your real estate experience as convenient as possible! Entrust yourself to our professional team.",
@@ -119,8 +120,15 @@ review1: `I would like to share my very positive experience working with agent <
 review2: `Many thanks to the specialists at Restart Kinnisvara. Excellent work! A professional approach to every detail, accurate and well-reasoned property valuation, great communication with potential buyers, and a quick deal – well done!<br>Special thanks to <strong>Ilja Tšegotov</strong> for achieving beneficial agreements with the buyer and protecting the client's interests until the final stage of the sale! Amazing job!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Mihhail --`,
 review3: `Restart Kinnisvara has proven itself as a reliable and competent organization, and I am happy to recommend Natalja and her colleagues. Natalja is a true high-level professional who always puts the client first. Many thanks for the excellent cooperation!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>`,
 review4: `Many thanks to <strong>Maria</strong> for helping us sell our apartment! We were very satisfied. Everything was clear, fast, and the communication was excellent. We truly felt that things were moving. We recommend her 200%!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Milana K. --`,
-review5: `Very professional and, most importantly – does her job with love. She arranged a photographer and added small but important details to the apartment. In my opinion, she did much more than she had to! It's rare to meet so much positivity and energy in one person.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`
-
+review5: `Very professional and, most importantly – does her job with love. She arranged a photographer and added small but important details to the apartment. In my opinion, she did much more than she had to! It's rare to meet so much positivity and energy in one person.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Rodion M. --`,
+review6: `On behalf of our entire family, we express our gratitude to Maria. All services were provided at the highest level and, most importantly, with humor. I recommend Maria as a person who is definitely in the right place. If you're looking for the best real estate agent – don't hesitate, it's Maria.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Jekaterina G. --`,
+review7: `Words cannot express our gratitude to Maria! 100% recommendation. My husband and I couldn’t imagine that people like her still exist today. Maria is not just a professional, she is a person with a big heart. We received invaluable help with buying a house – the transaction was complex and required fast, accurate decisions. Maria always had the right contact, phone number, trusted colleague, and a strong team (including the wonderful Natalja Kravtsenko). She was available 24/7, even while on vacation. So much warmth, support, and attention! Maria truly became our Angel and helped our dream come true. If you need a real estate expert – turn only to Maria. For her, this is not just a job. Thank you!!!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Inga --`,
+review8: `I don’t remember how we found Maria when we were looking for a specialist to sell our apartment, but reaching out to her was absolutely the right decision! From the first meeting, we had a very pleasant impression: Maria was attentive, competent, and genuinely involved in the process. We simply handed over the keys – and everything went smoothly. The only thing we had to do was sign the contract with the buyer. Maria took care of everything else.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Juri G. --`,
+review9: `Selling or buying real estate? ONLY GO TO MARIA! A true professional in her field! THE BEST!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Tatjana V. --`,
+review10: `I approached Maria to sell my apartment. From the very first moment, she inspired confidence and gave me hope that the plan would work. There were a few nuances during the sale that Maria helped us solve easily and quickly. The entire process took 2 months – everything went fast, smooth, and on a high level. Definitely the best in her field. I sincerely recommend her and thank her from the bottom of my heart!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Julia K. --`,
+review11: `Many thanks to Maria for the quick sale of our apartment. All her advice was spot on and helped sell it quickly and profitably. We were always informed and received answers to our questions about documents instantly. I highly, highly, highly recommend her. An excellent real estate agent!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Valeri N. --`,
+review12: `We sincerely want to thank Maria for the excellent cooperation during both the sale and purchase of our home. She was always extremely helpful and responded to our questions quickly and efficiently. Her professional and caring attitude made the entire process smooth and stress-free. We felt we were in good hands and that Maria truly cared about fulfilling all our needs. We will definitely recommend Maria to our friends and acquaintances. Thank you again for all the hard work!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Jekaterina S. --`,
+footerText: "© 2025 ReStart Real Estate. All rights reserved."
   },
   ru: {
   about: "О нас",
@@ -149,7 +157,7 @@ bubbleDeals: "Успешно заключённых сделок",
   emailLabel: "Эл. почта",
   addressLabel: "Адрес",
   agent1Text: "Основатель компании и лидер команды – эксперт по работе с клиентами, который обеспечивает прозрачность и честность в каждой сделке. Мария — это сердце нашей команды. Благодаря её лидерству Restart стал символом надёжности и профессионализма. Её уникальный подход сочетает глубокие знания рынка с искренней заботой о каждом клиенте. Когда Мария говорит: «мы найдём лучшего покупателя для вашего дома», — клиенты знают: это не просто обещание, это гарантия! Её жизненные истории по дороге к объектам и вдохновляющие успехи стали визитной карточкой Restart Kinnisvara.",
-  agent2Text: "Эксперт по коммерческой недвижимости и инвестиционным возможностям.",
+  agent2Text: "Раньше Зоя заглядывала в будущее как таролог, а теперь помогает клиентам строить его – в новых квартирах и домах. Зоя – тот маклер, который делает сделки с недвижимостью не просто понятными, но и волшебно комфортными. В ее подходе по-прежнему есть немного магии:<br> •	она чувствует клиента с полуслова<br>•	видит потенциал там, где другие не замечают<br>•	всегда на связи и готова разобраться с самым сложным кейсом",
   agent3Text: "Наталья — это энергия в действии. Если нужно помочь продать квартиру /ещё вчера/, звоните Наталье! Обладая образованием в международном бизнесе и 5-летним опытом в недвижимости, она работает в режиме ТУРБО. Её клиенты знают: если Наталья взялась за дело — результат превзойдёт ожидания. Ах да, она действительно доступна 24/7!",
   agent4Text: "Илья — мастер нестандартных решений. Когда кто-то говорит: «это невозможно», Илья отвечает: «давайте пересмотрим». Его опыт в ресторанной сфере с 2008 года научил его видеть возможности там, где другие видят препятствия. Спросите его о любом уголке Эстонии — и вы получите детальный обзор каждого района! Неудивительно, что клиенты называют его своим личным GPS в мире недвижимости.",
   servicesIntro: "В агентстве недвижимости Restart мы предлагаем полный спектр услуг, чтобы сделать ваш опыт максимально комфортным! Доверьтесь нашей профессиональной команде.",
@@ -177,23 +185,31 @@ details6: "• Профессиональная оценка рыночной с
 review2: `Огромная благодарность специалистам Restart Kinnisvara. Отличная работа! Профессиональный подход к каждой детали, адекватная и обоснованная оценка объекта, отличная работа с потенциальными покупателями и быстрая сделка – отличная работа!<br>Особая благодарность <strong>Илье Чеготову</strong> за достижение выгодных договоренностей с покупателем и защиту интересов клиента до самого конца сделки! Потрясающе!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Михаил --`,
 review3: `Компания Restart Kinnisvara зарекомендовала себя как надежная и компетентная организация, и я с радостью рекомендую Наталью и её коллег. Наталья – настоящий профессионал высокого уровня, для которой клиент всегда на первом месте. Огромное спасибо за отличное сотрудничество!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>`,
 review4: `Огромное спасибо <strong>Марии</strong> за помощь в продаже нашей квартиры! Мы остались очень довольны. Всё было чётко, быстро и с отличной коммуникацией. Действительно чувствовалось, что дело продвигается. Рекомендуем на 200%!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Милана К. --`,
-review5: `Очень профессионально и главное – с любовью к своему делу. Она организовала фотографа и добавила в квартиру небольшие, но важные детали. По моему мнению, она сделала гораздо больше, чем должна была! Редко встречается столько позитива и энергии в одном человеке.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Родион М. --`
+review5: `Очень профессионально и главное – с любовью к своему делу. Она организовала фотографа и добавила в квартиру небольшие, но важные детали. По моему мнению, она сделала гораздо больше, чем должна была! Редко встречается столько позитива и энергии в одном человеке.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Родион М. --`,
+review6: `Выражаем Марии благодарность от всей нашей семьи. Все услуги были оказаны на самом высшем уровне и главное – с юмором. Рекомендую Марию как человека, который точно находится на своём месте. Если вы ищете лучшего маклера – не сомневайтесь, это Мария.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Екатерина Г. --`,
+review7: `Словами не выразить нашу благодарность Марии! 100%-ая рекомендация. Мы с мужем и представить не могли, что в наше время есть такие Люди. Мария – не просто профессионал, она человек с большой душой. Мы получили бесценную помощь при покупке дома – сделка была сложная, с множеством подводных камней и необходимостью быстрого и точного реагирования. У Марии всегда оказывался нужный человек, номер телефона, надёжный коллега, сильная команда (в том числе замечательная Наталья Кравценко). Она была на связи 24/7, даже в отпуске. Столько тепла, поддержки, внимания! Мария действительно стала нашим Ангелом и помогла осуществить мечту. Если нужен специалист по недвижимости – только к Марии. Для неё это не просто работа. Спасибо!!!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Инга --`,
+review8: `Уже не помню, как именно мы нашли Марию, когда искали специалиста для продажи квартиры, но решение обратиться к ней было абсолютно верным! С первой встречи остались самые приятные впечатления: Мария проявила внимательность, компетентность и искреннюю вовлечённость. Мы просто передали ей ключи – и всё пошло как по маслу. Единственное, что нам нужно было сделать – подписать договор с покупателем. Всё остальное взяла на себя Мария.<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Юрий Г. --`,
+review9: `Продать или купить недвижимость? ТОЛЬКО К МАРИИ! Профессионал своего дела! ЛУЧШАЯ!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Татьяна В. --`,
+review10: `Я обратилась к Марии с просьбой помочь продать квартиру. Уже с первых минут общения она внушила доверие и дала надежду, что всё получится. В процессе возникли некоторые нюансы, которые Мария с лёгкостью помогла решить. Весь процесс занял 2 месяца – всё прошло быстро, легко и на высочайшем уровне. Однозначно лучший специалист в своей сфере. Рекомендую от всей души и искренне благодарю!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Юлия К. --`,
+review11: `Огромная благодарность Марии за быструю продажу квартиры. Все советы были очень уместны и помогли выгодно продать её в кратчайшие сроки. Мы всегда были в курсе и получали ответы на все вопросы по документам молниеносно. Очень очень очень рекомендую. Отличный маклер!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Валерий Н. --`,
+review12: `Хотим от всей души поблагодарить Марию за отличную работу при продаже и покупке нашего дома. Она всегда была предельно отзывчива и оперативно отвечала на все наши вопросы. Благодаря её профессионализму и заботливому отношению весь процесс прошёл спокойно и без стресса. Мы чувствовали себя в надёжных руках, и было видно, что Марии действительно важно, чтобы все наши потребности были удовлетворены. Обязательно будем рекомендовать её друзьям и знакомым. Огромное спасибо за всё!<br><div style="font-size: 1.5em; color: gold;">★★★★★</div>-- Екатерина С. --`,
 
+footerText: "© 2025 ReStart Недвижимость. Все права защищены."
   }
 };
 
-
-document.addEventListener("DOMContentLoaded", () => {
-  const languageSelector = document.getElementById("language-selector");
-  const menuToggle = document.querySelector(".menu-toggle");
-  const menu = document.querySelector(".dropdown-menu");
-
-  // === Перевод всех data-key ===
+// === Apply translations to all data-key elements ===
 function applyTranslations(lang) {
   document.querySelectorAll("[data-key]").forEach(el => {
     const key = el.getAttribute("data-key");
     if (translations[lang] && translations[lang][key]) {
-      if (["details1", "details2", "details3", "details4", "details5", "details6", "review1", "review2", "review3", "review4", "review5", "review6", "review7", "review8", "review9", "review10", "review11", "review12"].includes(key)) {
+      const htmlKeys = [
+        "details1", "details2", "details3", "details4",
+        "details5", "details6", "review1", "review2", "review3",
+        "review4", "review5", "review6", "review7", "review8",
+        "review9", "review10", "review11", "review12", "agent2Text"
+      ];
+      if (htmlKeys.includes(key)) {
         el.innerHTML = translations[lang][key];
       } else {
         el.textContent = translations[lang][key];
@@ -203,34 +219,22 @@ function applyTranslations(lang) {
   localStorage.setItem("lang", lang);
 }
 
+// === DOMContentLoaded setup ===
+document.addEventListener("DOMContentLoaded", () => {
+  // === Language Switching ===
+  const languageSelector = document.getElementById("language-selector");
   const savedLang = localStorage.getItem("lang") || "et";
-  languageSelector.value = savedLang;
+  if (languageSelector) {
+    languageSelector.value = savedLang;
+    languageSelector.addEventListener("change", (e) => {
+      applyTranslations(e.target.value);
+    });
+  }
   applyTranslations(savedLang);
 
-  languageSelector.addEventListener("change", (e) => {
-    applyTranslations(e.target.value);
-  });
-
-  function applyTranslations(lang) {
-  const elements = document.querySelectorAll("[data-key]");
-  elements.forEach(el => {
-    const key = el.getAttribute("data-key");
-    if (translations[lang][key]) {
-      el.innerHTML = translations[lang][key];
-    }
-  });
-}
-
-// Initial load
-const currentLang = document.getElementById("language-selector").value;
-applyTranslations(currentLang);
-
-// On language change
-document.getElementById("language-selector").addEventListener("change", (e) => {
-  applyTranslations(e.target.value);
-});
-
-  // === Гамбургер логика ===
+  // === Hamburger menu logic ===
+  const menuToggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".dropdown-menu");
   if (menuToggle && menu) {
     menuToggle.addEventListener("click", () => {
       menu.classList.toggle("show");
@@ -250,65 +254,65 @@ document.getElementById("language-selector").addEventListener("change", (e) => {
       }
     });
   }
-});
- // === Форма ===
-document.addEventListener("DOMContentLoaded", () => {
+
+  // === Contact Form Submission ===
   const form = document.getElementById("contact-form");
   const responseMsg = document.getElementById("form-response");
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // не перезагружать страницу
+  if (form && responseMsg) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
 
-    const formData = new FormData(form);
+      const formData = new FormData(form);
 
-    fetch("https://formsubmit.co/ajax/maria@restartkv.ee", {
-      method: "POST",
-      body: formData,
-      headers: {
-        Accept: "application/json"
-      }
-    })
-      .then(response => response.json())
-      .then(data => {
-        if (data.success === "true") {
-          responseMsg.textContent = "Aitäh! Teie kiri on saadetud.";
-          responseMsg.style.display = "block";
-          responseMsg.style.color = "#90ee90";
-          form.reset();
-        } else {
-          responseMsg.textContent = "Viga saatmisel. Palun proovige uuesti.";
-          responseMsg.style.display = "block";
-          responseMsg.style.color = "#ff9999";
+      fetch("https://formsubmit.co/ajax/maria@restartkv.ee", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json"
         }
       })
-      .catch(error => {
-        responseMsg.textContent = "Serveri viga. Palun proovige hiljem.";
-        responseMsg.style.display = "block";
-        responseMsg.style.color = "#ff9999";
-      });
+        .then(response => response.json())
+        .then(data => {
+          if (data.success === "true") {
+            responseMsg.textContent = "Aitäh! Teie kiri on saadetud.";
+            responseMsg.style.display = "block";
+            responseMsg.style.color = "#90ee90";
+            form.reset();
+          } else {
+            responseMsg.textContent = "Viga saatmisel. Palun proovige uuesti.";
+            responseMsg.style.display = "block";
+            responseMsg.style.color = "#ff9999";
+          }
+        })
+        .catch(error => {
+          responseMsg.textContent = "Serveri viga. Palun proovige hiljem.";
+          responseMsg.style.display = "block";
+          responseMsg.style.color = "#ff9999";
+        });
+    });
+  }
+
+  // === Toggle "Loe rohkem / Peida" button for service items ===
+  document.querySelectorAll('.toggle-details').forEach(button => {
+    button.addEventListener('click', () => {
+      const item = button.closest('.service-item');
+      const text = button.querySelector('.toggle-text');
+      item.classList.toggle('expanded');
+
+      const isOpen = item.classList.contains('expanded');
+      text.textContent = isOpen ? 'Peida' : 'Loe rohkem';
+    });
   });
-});
-document.querySelectorAll('.toggle-details').forEach(button => {
-  button.addEventListener('click', () => {
-    const item = button.closest('.service-item');
-    const text = button.querySelector('.toggle-text');
-    item.classList.toggle('expanded');
 
-    const isOpen = item.classList.contains('expanded');
-    text.textContent = isOpen ? 'Peida' : 'Loe rohkem';
-  });
-});
- // === changing picture in about section ===
-
-  document.addEventListener("DOMContentLoaded", () => {
-    let currentIndex = 0;
-    const images = document.querySelectorAll(".image-slider img");
-    if (!images.length) return;
-
+  // === About Section Image Slider ===
+  let currentIndex = 0;
+  const images = document.querySelectorAll(".image-slider img");
+  if (images.length) {
     setInterval(() => {
       images[currentIndex].classList.remove("active");
       currentIndex = (currentIndex + 1) % images.length;
       images[currentIndex].classList.add("active");
     }, 4000);
-  });
-
+  }
+});
