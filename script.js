@@ -4,12 +4,17 @@ const translations = {
     slogan: "Teie usaldusväärne partner kinnisvaras",
     intro: "ReStart Kinnisvaraga ei saa te lihtsalt teenust – te saate meelerahu ja kindlustunde. Me hoolitseme kõige eest, et saaksite keskenduda meeldivatele hetkedele – tuleviku planeerimisele oma uues kodus või uuele eluetapile valmistumisele. Me ei ole lihtsalt maaklerid – me oleme teie usaldusväärsed teejuhid Tallinna kinnisvaramaailmas. Usaldage meid ja te ei kahetse!",
     viewListings: "Vaata meie aktiivseid objekte portaalis KV.ee",
+    bubbleClients: "Rahulolevat klienti",
+bubbleSupport: "Tundi tuge",
+bubbleDeals: "Edukalt sõlmitud tehingut",
     team: "Meeskond",
     worktitle: "Maakler",
     agent1: "Maria Ganža",
     agent2: "Zoja Nagornaja",
     agent3: "Natalja Kravtšenko",
     agent4: "Ilja Tšegotov",
+      phoneLabel: "Telefon",
+  emailLabel: "E-mail",
     services: "Teenused",
     reviews: "Arvustused",
     contact: "Kontakt",
@@ -37,12 +42,12 @@ const translations = {
   service5Text: "Aitame leida uue kodu pärast teie kinnisvara müüki – kiiresti, usaldusväärselt ja teie soovide järgi.",
     service6Title: "Professionaalne hindamine",
   service6Text: "Me teame, kui oluline on mõista oma kinnisvara tegelikku väärtust. Seetõttu uurime hoolikalt teie objekti kõiki eripärasid ja aitame määrata selle õiglase turuhinna. Saatke meile lihtsalt oma korteri fotod ning jagame hea meelega oma professionaalset arvamust selle hetkeväärtuse kohta turul.",
-  details1: "• Kinnisvara turuväärtuse professionaalne hindamine• Kvaliteetne objekti ettevalmistus pildistamiseks• Aktiivne turundus nii veebis kui ka väljaspool• Objektide näitamine potentsiaalsetele ostjatele• Tehingu täielik juriidiline saatmine",
-  details2: "• Professionaalne pildistamine kaasaegse tehnikaga• Pildistamine soodsatest vaatenurkadest, mis toovad esile objekti eelised• Fotode professionaalne töötlemine• Virtuaaltuuride loomine• Aerofotod vastavalt soovile",
-  details3:"• Kinnisvara objekti juriidilise tausta kontroll• Kõigi tehinguks vajalike dokumentide koostamine ja kontroll• Notariaalse vormistamise protsessi tugi ja saatmine• Konsultatsioonid kinnisvaratehingute maksustamise kohta Võtke meiega ühendust juba täna, et arutada teie vajadusi ja saada teada, kuidas saame just teile abiks olla!",
-  details4:"• Üürnike otsimine teie kinnisvarale• Üüripinna leidmine vastavalt teie kriteeriumidele• Õiguspärane üürilepingu koostamine• Potentsiaalsete üürnike taustakontroll• Abi vaidluste lahendamisel",
-  details5:"• Teie soovide ja nõudmiste põhjalik kaardistamine• Objektide näitamiste korraldamine teile sobival ajal• Konsultatsioonid piirkondade, infrastruktuuri ja arenguväljavaadete osas• Abi objektide tehnilise seisukorra hindamisel• Läbirääkimised parimate ostutingimuste saavutamiseks",
-  fetails6:"• Kinnisvara turuväärtuse professionaalne hindamine• Kvaliteetne objekti ettevalmistus pildistamiseks• Aktiivne turundus nii veebis kui ka väljaspool• Objektide näitamine potentsiaalsetele ostjatele• Tehingu täielik juriidiline saatmine",
+ details1: "• Kinnisvara turuväärtuse professionaalne hindamine<br>• Kvaliteetne objekti ettevalmistus pildistamiseks<br>• Aktiivne turundus nii veebis kui ka väljaspool<br>• Objektide näitamine potentsiaalsetele ostjatele<br>• Tehingu täielik juriidiline saatmine",
+    details2: "• Professionaalne pildistamine kaasaegse tehnikaga<br>• Pildistamine soodsatest vaatenurkadest, mis toovad esile objekti eelised<br>• Fotode professionaalne töötlemine<br>• Virtuaaltuuride loomine<br>• Aerofotod vastavalt soovile",
+    details3: "• Kinnisvara objekti juriidilise tausta kontroll<br>• Kõigi tehinguks vajalike dokumentide koostamine ja kontroll<br>• Notariaalse vormistamise protsessi tugi ja saatmine<br>• Konsultatsioonid kinnisvaratehingute maksustamise kohta<br>Võtke meiega ühendust juba täna, et arutada teie vajadusi ja saada teada, kuidas saame just teile abiks olla!",
+    details4: "• Üürnike otsimine teie kinnisvarale<br>• Üüripinna leidmine vastavalt teie kriteeriumidele<br>• Õiguspärane üürilepingu koostamine<br>• Potentsiaalsete üürnike taustakontroll<br>• Abi vaidluste lahendamisel",
+    details5: "• Teie soovide ja nõudmiste põhjalik kaardistamine<br>• Objektide näitamiste korraldamine teile sobival ajal<br>• Konsultatsioonid piirkondade, infrastruktuuri ja arenguväljavaadete osas<br>• Abi objektide tehnilise seisukorra hindamisel<br>• Läbirääkimised parimate ostutingimuste saavutamiseks",
+    details6: "• Kinnisvara turuväärtuse professionaalne hindamine<br>• Kvaliteetne objekti ettevalmistus pildistamiseks<br>• Aktiivne turundus nii veebis kui ka väljaspool<br>• Objektide näitamine potentsiaalsetele ostjatele<br>• Tehingu täielik juriidiline saatmine",
   partners: "Partnerid",
 	send: "Saada"
 },
@@ -52,12 +57,17 @@ const translations = {
   slogan: "Your trusted partner in real estate",
   intro: "With ReStart Kinnisvara, you don't just get a service – you gain peace of mind and confidence. We take care of everything so you can focus on pleasant moments – planning your future in your new home or preparing for a new chapter. We’re not just real estate agents – we’re your reliable guides in the Tallinn real estate world. Trust us, and you won’t regret it!",
   viewListings: "View our active listings on KV.ee",
+  bubbleClients: "Satisfied clients",
+bubbleSupport: "Hours of support",
+bubbleDeals: "Successful deals closed",
   team: "Team",
   worktitle: "Agent",
     agent1: "Maria Ganža",
     agent2: "Zoja Nagornaja",
     agent3: "Natalja Kravtšenko",
     agent4: "Ilja Tšegotov",
+      phoneLabel: "Phone",
+  emailLabel: "Email",
   services: "Services",
   reviews: "Reviews",
   contact: "Contact",
@@ -85,27 +95,31 @@ const translations = {
   service5Text: "We help you find a new home after selling your property – quickly, reliably, and according to your preferences.",
   service6Title: "Professional Valuation",
   service6Text: "We understand how important it is to know the real value of your property. That’s why we carefully examine all the features of your property and help determine its fair market price. Just send us photos of your apartment, and we’ll be happy to share our professional opinion on its current market value.",
-  details1: "• Professional market value appraisal of the property\n• Quality preparation of the object for photography\n• Active marketing both online and offline\n• Property viewings for potential buyers\n• Full legal support for the transaction",
-details2: "• Professional photography with modern equipment\n• Shooting from angles that highlight the property’s advantages\n• Professional photo editing\n• Creation of virtual tours\n• Aerial photography upon request",
-details3: "• Legal background check of the property\n• Preparation and review of all documents required for the transaction\n• Support during the notarial process\n• Tax consultation related to real estate transactions\nContact us today to discuss your needs and learn how we can help you!",
-details4: "• Finding tenants for your property\n• Finding rental property according to your criteria\n• Legally compliant rental agreement drafting\n• Background checks on potential tenants\n• Assistance with dispute resolution",
-details5: "• Detailed assessment of your wishes and requirements\n• Organizing property viewings at your convenience\n• Consulting on neighborhoods, infrastructure, and development prospects\n• Assistance in assessing the technical condition of properties\n• Negotiating the best purchase terms",
-details6: "• Professional market value appraisal of the property\n• Quality preparation of the object for photography\n• Active marketing both online and offline\n• Property viewings for potential buyers\n• Full legal support for the transaction",
-
+details1: "• Professional market value appraisal of the property<br>• Quality preparation of the object for photography<br>• Active marketing both online and offline<br>• Property viewings for potential buyers<br>• Full legal support for the transaction",
+details2: "• Professional photography with modern equipment<br>• Shooting from angles that highlight the property’s advantages<br>• Professional photo editing<br>• Creation of virtual tours<br>• Aerial photography upon request",
+details3: "• Legal background check of the property<br>• Preparation and review of all documents required for the transaction<br>• Support during the notarial process<br>• Tax consultation related to real estate transactions<br>Contact us today to discuss your needs and learn how we can help you!",
+details4: "• Finding tenants for your property<br>• Finding rental property according to your criteria<br>• Legally compliant rental agreement drafting<br>• Background checks on potential tenants<br>• Assistance with dispute resolution",
+details5: "• Detailed assessment of your wishes and requirements<br>• Organizing property viewings at your convenience<br>• Consulting on neighborhoods, infrastructure, and development prospects<br>• Assistance in assessing the technical condition of properties<br>• Negotiating the best purchase terms",
+details6: "• Professional market value appraisal of the property<br>• Quality preparation of the object for photography<br>• Active marketing both online and offline<br>• Property viewings for potential buyers<br>• Full legal support for the transaction",  partners: "Partners",
   partners: "Partners",
-  send: "Send"
+send: "Send"
   },
   ru: {
   about: "О нас",
   slogan: "Ваш надежный партнёр в недвижимости",
   intro: "С ReStart Kinnisvara вы получаете не просто услугу — вы получаете душевное спокойствие и уверенность. Мы берём на себя все заботы, чтобы вы могли сосредоточиться на приятных моментах — планировании будущего в новом доме или подготовке к новому этапу жизни. Мы не просто риелторы — мы ваши надёжные проводники в мире недвижимости Таллина. Доверьтесь нам — и вы не пожалеете!",
   viewListings: "Смотреть наши активные объекты на KV.ee",
+  bubbleClients: "Довольных клиентов",
+bubbleSupport: "Часов поддержки",
+bubbleDeals: "Успешно заключённых сделок",
   team: "Команда",
   worktitle: "Риелтор",
       agent1: "Мария Ганжа",
     agent2: "Зоя Нагорная",
     agent3: "Наталья Кравченко",
     agent4: "Илья Чеготов",
+      phoneLabel: "Телефон",
+  emailLabel: "Эл. почта",
   services: "Услуги",
   reviews: "Отзывы",
   contact: "Контакты",
@@ -133,13 +147,12 @@ details6: "• Professional market value appraisal of the property\n• Quality 
   service5Text: "Поможем найти новый дом после продажи вашей недвижимости – быстро, надёжно и по вашим критериям.",
   service6Title: "Профессиональная оценка",
   service6Text: "Мы знаем, как важно понимать реальную стоимость вашей недвижимости. Поэтому мы внимательно изучим все особенности вашего объекта и поможем определить его справедливую рыночную цену. Просто отправьте нам фотографии вашей квартиры, и мы с радостью поделимся своим профессиональным мнением о её текущей стоимости.",
-  details1: "• Профессиональная оценка рыночной стоимости недвижимости\n• Качественная подготовка объекта к фотосъёмке\n• Активное продвижение как онлайн, так и офлайн\n• Проведение показов потенциальным покупателям\n• Полное юридическое сопровождение сделки",
-details2: "• Профессиональная фотосъёмка с использованием современной техники\n• Съёмка с выгодных ракурсов, подчёркивающих преимущества объекта\n• Профессиональная обработка фотографий\n• Создание виртуальных туров\n• Аэрофотосъёмка по запросу",
-details3: "• Проверка юридической чистоты объекта недвижимости\n• Составление и проверка всех документов, необходимых для сделки\n• Поддержка в процессе нотариального оформления\n• Консультации по налогообложению сделок с недвижимостью\nСвяжитесь с нами уже сегодня, чтобы обсудить ваши потребности и узнать, чем мы можем быть полезны именно вам!",
-details4: "• Поиск арендаторов для вашей недвижимости\n• Подбор арендуемой недвижимости по вашим критериям\n• Юридически грамотное составление договора аренды\n• Проверка потенциальных арендаторов\n• Помощь в разрешении спорных ситуаций",
-details5: "• Детальный анализ ваших пожеланий и требований\n• Организация просмотров в удобное для вас время\n• Консультации по районам, инфраструктуре и перспективам развития\n• Помощь в оценке технического состояния объектов\n• Переговоры о лучших условиях покупки",
-details6: "• Профессиональная оценка рыночной стоимости недвижимости\n• Качественная подготовка объекта к фотосъёмке\n• Активное продвижение как онлайн, так и офлайн\n• Проведение показов потенциальным покупателям\n• Полное юридическое сопровождение сделки",
-
+details1: "• Профессиональная оценка рыночной стоимости недвижимости<br>• Качественная подготовка объекта к фотосъёмке<br>• Активное продвижение как онлайн, так и офлайн<br>• Проведение показов потенциальным покупателям<br>• Полное юридическое сопровождение сделки",
+details2: "• Профессиональная фотосъёмка с использованием современной техники<br>• Съёмка с выгодных ракурсов, подчёркивающих преимущества объекта<br>• Профессиональная обработка фотографий<br>• Создание виртуальных туров<br>• Аэрофотосъёмка по запросу",
+details3: "• Проверка юридической чистоты объекта недвижимости<br>• Составление и проверка всех документов, необходимых для сделки<br>• Поддержка в процессе нотариального оформления<br>• Консультации по налогообложению сделок с недвижимостью<br>Свяжитесь с нами уже сегодня, чтобы обсудить ваши потребности и узнать, чем мы можем быть полезны именно вам!",
+details4: "• Поиск арендаторов для вашей недвижимости<br>• Подбор арендуемой недвижимости по вашим критериям<br>• Юридически грамотное составление договора аренды<br>• Проверка потенциальных арендаторов<br>• Помощь в разрешении спорных ситуаций",
+details5: "• Детальный анализ ваших пожеланий и требований<br>• Организация просмотров в удобное для вас время<br>• Консультации по районам, инфраструктуре и перспективам развития<br>• Помощь в оценке технического состояния объектов<br>• Переговоры о лучших условиях покупки",
+details6: "• Профессиональная оценка рыночной стоимости недвижимости<br>• Качественная подготовка объекта к фотосъёмке<br>• Активное продвижение как онлайн, так и офлайн<br>• Проведение показов потенциальным покупателям<br>• Полное юридическое сопровождение сделки",
   partners: "Партнёры",
   send: "Отправить"
   }
@@ -152,15 +165,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".dropdown-menu");
 
   // === Перевод всех data-key ===
-  function applyTranslations(lang) {
-    document.querySelectorAll("[data-key]").forEach(el => {
-      const key = el.getAttribute("data-key");
-      if (translations[lang] && translations[lang][key]) {
+function applyTranslations(lang) {
+  document.querySelectorAll("[data-key]").forEach(el => {
+    const key = el.getAttribute("data-key");
+    if (translations[lang] && translations[lang][key]) {
+      if (["details1", "details2", "details3", "details4", "details5", "details6"].includes(key)) {
+        el.innerHTML = translations[lang][key];
+      } else {
         el.textContent = translations[lang][key];
       }
-    });
-    localStorage.setItem("lang", lang);
-  }
+    }
+  });
+  localStorage.setItem("lang", lang);
+}
 
   const savedLang = localStorage.getItem("lang") || "et";
   languageSelector.value = savedLang;
