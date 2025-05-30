@@ -222,21 +222,25 @@ function applyTranslations(lang) {
       }
     }
   });
-  localStorage.setItem("lang", lang);
 }
 
-// === DOMContentLoaded setup ===
 document.addEventListener("DOMContentLoaded", () => {
   // === Language Switching ===
   const languageSelector = document.getElementById("language-selector");
-  const savedLang = localStorage.getItem("lang") || "et";
+  const currentLang = "et"; // всегда открывать на эстонском
+
+  applyTranslations(currentLang); // применяем перевод в любом случае
+
   if (languageSelector) {
-    languageSelector.value = savedLang;
+    languageSelector.value = currentLang;
+
+    // язык можно поменять вручную
     languageSelector.addEventListener("change", (e) => {
       applyTranslations(e.target.value);
     });
   }
-  applyTranslations(savedLang);
+
+
 
   // === Hamburger menu logic ===
   const menuToggle = document.querySelector(".menu-toggle");
@@ -307,7 +311,8 @@ document.querySelectorAll('.toggle-details').forEach(button => {
     item.classList.toggle('expanded');
 
     const isOpen = item.classList.contains('expanded');
-    const currentLang = localStorage.getItem("lang") || "et";
+    const currentLang = document.getElementById("language-selector").value || "et";
+
     
     text.setAttribute("data-key", isOpen ? "toggleLess" : "toggleMore");
     text.textContent = translations[currentLang][isOpen ? "toggleLess" : "toggleMore"];
